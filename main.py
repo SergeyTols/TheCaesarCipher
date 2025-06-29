@@ -13,17 +13,12 @@ while True:
     if choice == 'd':
         step *= -1
     for letter in word:
-            if letter in abc:
-                i = abc.index(letter)
-                new_letter = (i + step) % 33
-                new_word += abc[new_letter]
+        if letter in abc:
+            i = abc.index(letter)
+            new_letter = (i + step) % 33
+            new_word += abc[new_letter]
     print('Результат: ' + new_word)
 
-
-
-# гдфхугнхрс
-
-# йстг
 
 
 
